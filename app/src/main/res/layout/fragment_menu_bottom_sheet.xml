@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MenuBottomSheetFragment">
+
+
+
+    <!--    Made by Muhammad Noman-->
+
+    <!--    If you need my service or you have any question then you can contact with me.-->
+
+    <!--    WhatsApp number :  +923104881573-->
+
+    <!--    LinkedIn account :  https://www.linkedin.com/in/muhammad-noman59-->
+
+    <!--    Facebook account :  https://www.facebook.com/profile.php?id=100092720556743&mibextid=ZbWKwL-->
+
+
+
+    <ImageButton
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:id="@+id/back_btn_menu"
+        android:layout_gravity="left"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/back_arrow_icon" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/yeon_sung"
+        android:text="Menu"
+        android:textSize="24sp"
+        android:textColor="@color/black"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/m_rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        tools:listitem="@layout/menu_item" />
+</LinearLayout>

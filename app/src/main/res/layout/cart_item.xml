@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="wrap_content">
+
+
+    <!--    Made by Muhammad Noman-->
+
+    <!--    If you need my service or you have any question then you can contact with me.-->
+
+    <!--    WhatsApp number :  +923104881573-->
+
+    <!--    LinkedIn account :  https://www.linkedin.com/in/muhammad-noman59-->
+
+    <!--    Facebook account :  https://www.facebook.com/profile.php?id=100092720556743&mibextid=ZbWKwL-->
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/cartImage"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/menu_photo_1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/cart_food_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/yeon_sung"
+                android:text="TextView"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toTopOf="@+id/cart_price"
+                app:layout_constraintStart_toEndOf="@+id/cartImage"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/cart_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lato"
+                android:text="TextView"
+                android:textColor="@color/green"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/cart_food_name"
+                app:layout_constraintTop_toBottomOf="@+id/cart_food_name" />
+
+            <ImageButton
+                android:id="@+id/plus_btn"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/plus_icon_bg"
+                android:src="@drawable/plus_icon"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/minus_btn"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/mains_icon_bg"
+                android:src="@drawable/mains_icon"
+                app:layout_constraintBottom_toBottomOf="@+id/carItemQuantity"
+                app:layout_constraintEnd_toStartOf="@+id/carItemQuantity"
+                app:layout_constraintTop_toTopOf="@+id/carItemQuantity" />
+
+            <TextView
+                android:id="@+id/carItemQuantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:text="1"
+                app:layout_constraintBottom_toBottomOf="@+id/plus_btn"
+                app:layout_constraintEnd_toStartOf="@+id/plus_btn"
+                app:layout_constraintTop_toTopOf="@+id/plus_btn" />
+
+            <ImageButton
+                android:id="@+id/delete_btn"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="16dp"
+                android:background="@android:color/transparent"
+                app:layout_constraintEnd_toEndOf="@+id/plus_btn"
+                app:layout_constraintStart_toStartOf="@+id/minus_btn"
+                app:layout_constraintTop_toBottomOf="@+id/minus_btn"
+                app:srcCompat="@drawable/delet_icon" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

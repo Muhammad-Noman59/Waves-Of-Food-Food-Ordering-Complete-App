@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "407236622916",
+    "firebase_url": "https://waves-of-food-ba61a-default-rtdb.firebaseio.com",
+    "project_id": "waves-of-food-ba61a",
+    "storage_bucket": "waves-of-food-ba61a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:407236622916:android:006477f6d1c8b404d45a11",
+        "android_client_info": {
+          "package_name": "com.example.adminwavesoffood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "407236622916-fiqg0kem2gaalrsv5690tl48kn9q0hj6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.adminwavesoffood",
+            "certificate_hash": "f991fd82e86e7a69ac6060bac139d7171e17b8cb"
+          }
+        },
+        {
+          "client_id": "407236622916-09rkefthrdrvda5p9igbvcsljs62avgh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHAhiO_MLVAT4Mi-e26fxJkburaDMsJhc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "407236622916-09rkefthrdrvda5p9igbvcsljs62avgh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:407236622916:android:a8a56977928be280d45a11",
+        "android_client_info": {
+          "package_name": "com.example.wavesoffood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "407236622916-09rkefthrdrvda5p9igbvcsljs62avgh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHAhiO_MLVAT4Mi-e26fxJkburaDMsJhc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "407236622916-09rkefthrdrvda5p9igbvcsljs62avgh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
