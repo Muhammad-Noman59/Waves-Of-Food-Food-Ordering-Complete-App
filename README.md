@@ -63,3 +63,6 @@ https://github.com/Muhammad-Noman59/Admin-Waves-Of-Food-Food-Ordering-Complete-A
 <h3 align="left">Missing functionality</h3
 
 -> You cannot create new user from admin panel I am not working on it for now but UI designed. If I update this product in future then I will add this functionality.
+
+
+<img alt="gfi" src="https://github.com/Muhammad-Noman59/Muhammad-Noman59/blob/main/Thnks%20For%20Watching.gif">
